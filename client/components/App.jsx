@@ -1,9 +1,9 @@
 import React from 'react';
-
+require('../styles/main.scss');
 export default class App extends React.Component {
   render() {
     return (
-     <div style={{textAlign: 'center'}}>
+     <div>
         <h1>Hello World</h1>
       </div>);
   }
